@@ -21,7 +21,8 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 @app.route('/')
-def root(userMSG: str = "Hello"):
+def root():
+    userMSG = request.args.get('userMSG', 'Hello')
     response = DisasterChatbot.init(userMSG)
     return {"response": response}
 
