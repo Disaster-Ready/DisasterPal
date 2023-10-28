@@ -16,11 +16,11 @@ nltk.download('wordnet')
 import json
 import random
 
-from fastapi import FastAPI
+from flask import Flask, request, jsonify
 
-app = FastAPI()
+app = Flask(__name)
 
-@app.get("/")
+@app.route('/')
 async def root(userMSG: str = "Hello"):
     response = DisasterChatbot.init(userMSG)
     return {"response": response}
