@@ -1,0 +1,268 @@
+{
+    "intents": [
+      {
+        "name": "greeting",
+        "patterns": [
+          "hi",
+          "hello",
+          "hey",
+          "good morning",
+          "good afternoon",
+          "good evening"
+        ],
+        "responses": [
+          "Hello! How can I assist you today?",
+          "Hi there! How can I help you?",
+          "Hey! How may I assist you?",
+          "Greetings! How can I be of service?",
+          "Hi! What can I do for you today?",
+          "Hello, how are you? How may I assist you?",
+          "Hey there! How can I help you today?",
+          "Greetings! How can I assist you on this fine day?"
+        ]
+      },
+      {
+        "name": "farewell",
+        "patterns": [
+          "bye",
+          "goodbye",
+          "see you",
+          "take care",
+          "farewell",
+          "have a nice day",
+          "see you later",
+          "thanks",
+          "thank you"
+        ],
+        "responses": [
+          "Goodbye! Feel free to reach out if you need any assistance later.",
+          "Farewell! If you have any more questions, don't hesitate to ask.",
+          "See you later! Remember, I'm here to help whenever you need me.",
+          "Goodbye, and take care! If there's anything else I can assist you with, just let me know.",
+          "Have a nice day! If you have any further inquiries, feel free to ask.",
+          "Bye! Take care and remember, I'm available to assist you whenever you require."
+        ]
+      },
+      {
+        "name": "earthquake",
+        "patterns": ["earthquake", "quake", "tremor", "earthshock", "seismic"],
+        "responses": [
+          {
+            "category": "safety_tips",
+            "content": [
+              "Go to an open space outdoors.",
+              "Duck and cover under a stable surface.",
+              "Stay away from windows and glass.",
+              "Beware of falling objects and debris.",
+              "If indoors, stay inside, and take cover.",
+              "Avoid using elevators during an earthquake.",
+              "Listen to emergency alerts for guidance.",
+              "Check on your neighbors and assist if possible.",
+              "Have an emergency kit ready with essentials.",
+              "Know the emergency evacuation routes in your area."
+            ]
+          },
+          {
+            "category": "general_info",
+            "content": [
+              "Earthquakes can be very dangerous, so it is important to have strong knowledge about them.",
+              "Earthquakes can range from very low magnitudes, weak and not dangerous, to very strong, powerful and able to cause a lot of damage.",
+              "The Richter scale measures the magnitude of earthquakes.",
+              "The 'Ring of Fire' is a region with frequent earthquakes and volcanic eruptions.",
+              "Tectonic plate movements are responsible for most earthquakes.",
+              "Earthquakes can trigger tsunamis in coastal areas.",
+              "Seismic waves travel through the Earth during an earthquake.",
+              "Emergency drills help prepare for earthquake scenarios.",
+              "Retrofitting buildings can make them more earthquake-resistant.",
+              "Earthquake early warning systems can provide crucial seconds to prepare."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "thunderstorm",
+        "patterns": ["thunderstorm", "thunder", "lightning", "storm","cloud"],
+        "responses": [
+          {
+            "category": "safety_tips",
+            "content": [
+              "Stay indoors during a thunderstorm to avoid lightning strikes.",
+              "If you're outside, seek shelter in a building or a car.",
+              "Don't take shelter under trees during a thunderstorm.",
+              "Avoid water bodies such as pools and lakes.",
+              "Unplug electrical devices to protect them from lightning damage.",
+              "Wait at least 30 minutes after the last clap of thunder before going outside.",
+              "If indoors, stay away from windows and doors.",
+              "Listen to weather forecasts and warnings.",
+              "Have a flashlight and batteries ready for power outages.",
+              "Avoid using wired phones during a thunderstorm."
+            ]
+          },
+          {
+            "category": "general_info",
+            "content": [
+              "A thunderstorm is a weather event with thunder, lightning, and rainfall.",
+              "Lightning is an electrical discharge in the atmosphere.",
+              "Thunder is the sound produced by lightning.",
+              "Severe thunderstorms can produce hail and strong winds.",
+              "Tornadoes can be associated with severe thunderstorms.",
+              "Thunderstorms can cause power outages and flooding.",
+              "Lightning can strike the ground, buildings, and trees.",
+              "Indoor lightning safety includes avoiding water and metal objects.",
+              "Lightning safety outdoors involves finding shelter or staying low to the ground.",
+              "Meteorologists use radar and satellite data to track thunderstorms."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "flood",
+        "patterns": ["flood", "flooding", "water", "river","overflow","wave","tsunami"],
+        "responses": [
+          {
+            "category": "safety_tips",
+            "content": [
+              "Evacuate to higher ground if you're in a flood-prone area.",
+              "Avoid walking or driving through flooded areas.",
+              "Stay tuned to weather updates and emergency alerts.",
+              "If trapped in a building during a flood, go to the highest floor.",
+              "Don't touch electrical equipment in flooded areas.",
+              "Prepare a disaster kit with essentials like food and water.",
+              "Know your community's flood risk and evacuation routes.",
+              "Teach your family how to turn off utilities.",
+              "Move important documents and valuables to a safe place.",
+              "Keep a battery-operated radio for emergency information."
+            ]
+          },
+          {
+            "category": "general_info",
+            "content": [
+              "Floods can result from heavy rainfall, dam breaks, or snowmelt.",
+              "Flash floods occur suddenly and can be very dangerous.",
+              "River floods can develop over time and affect larger areas.",
+              "Floods can contaminate drinking water and cause waterborne diseases.",
+              "Flood insurance can help with recovery from flood damage.",
+              "Storm drains can become overwhelmed during heavy rains.",
+              "Urban areas are prone to flash floods due to concrete surfaces.",
+              "The National Weather Service issues flood warnings and watches.",
+              "Local authorities may provide sandbags for flood protection.",
+              "Flood mitigation measures include levees and floodplain management."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "wildfire",
+        "patterns": ["wildfire", "forest", "bushfire", "wildland","fire","flame","burn"],
+        "responses": [
+          {
+            "category": "safety_tips",
+            "content": [
+              "Evacuate immediately if authorities issue a wildfire warning.",
+              "Create a defensible space around your home by removing flammable materials.",
+              "Keep roofs and gutters clear of debris to prevent embers from igniting.",
+              "Close all windows and doors to prevent embers from entering your home.",
+              "Avoid using outdoor equipment that can create sparks.",
+              "Have an emergency kit ready with essentials like water and first-aid supplies.",
+              "Stay informed about fire conditions and follow evacuation orders.",
+              "If you're caught in a wildfire, seek shelter in a building or car.",
+              "Listen to local authorities and follow their instructions.",
+              "Do not return to your home until it's declared safe by authorities."
+            ]
+          },
+          {
+            "category": "general_info",
+            "content": [
+              "Wildfires are uncontrolled fires that spread rapidly through vegetation.",
+              "They are often fueled by dry conditions and strong winds.",
+              "Wildfires can have a devastating impact on ecosystems and communities.",
+              "Firefighters use various strategies to combat wildfires, including backfires.",
+              "A firebreak is a cleared area that can help stop the spread of a wildfire.",
+              "Smoke from wildfires can pose health risks, especially to the elderly and children.",
+              "Wildfire preparedness includes having a family communication plan.",
+              "Climate change can contribute to more frequent and severe wildfires.",
+              "Emergency alerts and apps provide information on nearby wildfires.",
+              "Check with local authorities for wildfire prevention and safety tips."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "hurricane",
+        "patterns": ["hurricane", "tropical", "typhoon", "winds"],
+        "responses": [
+          {
+            "category": "safety_tips",
+            "content": [
+              "Evacuate if authorities issue hurricane warnings for your area.",
+              "Prepare an emergency kit with essentials like food, water, and medications.",
+              "Secure outdoor objects that could become projectiles in high winds.",
+              "Board up windows to protect against flying debris.",
+              "Stay indoors during the hurricane, away from windows and glass doors.",
+              "Be cautious of flooding during the hurricane, especially in low-lying areas.",
+              "Listen to NOAA Weather Radio for official updates and warnings.",
+              "Do not use candles during a power outage; use flashlights.",
+              "If caught in a storm surge, move to higher ground.",
+              "After the hurricane, check in with family and neighbors, especially the elderly."
+            ]
+          },
+          {
+            "category": "general_info",
+            "content": [
+              "A hurricane is a powerful tropical storm with strong winds and heavy rain.",
+              "Hurricanes are classified by categories from 1 (weakest) to 5 (strongest).",
+              "The eye of a hurricane is a calm, circular area in the center of the storm.",
+              "Storm surges are a major threat during hurricanes and can cause coastal flooding.",
+              "Meteorologists use satellites and radar to track hurricane movement.",
+              "Emergency shelters provide safety during hurricanes for those who evacuate.",
+              "Inland flooding from heavy rainfall is a significant hurricane risk.",
+              "Hurricane preparedness includes knowing evacuation routes.",
+              "Hurricane watches and warnings are issued by the National Hurricane Center.",
+              "Climate change may influence the intensity and frequency of hurricanes."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "tornado",
+        "patterns": ["tornado", "twister", "cyclone", "windstorm"],
+        "responses": [
+          {
+            "category": "safety_tips",
+            "content": [
+              "Have a tornado emergency kit ready with essentials like water and first-aid supplies.",
+              "Seek shelter in a small, windowless, and centrally located room during a tornado.",
+              "If outdoors, find a low-lying area away from vehicles and trees.",
+              "Avoid staying in mobile homes during a tornado; seek sturdier shelter.",
+              "Listen to NOAA Weather Radio for tornado warnings and updates.",
+              "Use a helmet for head protection during a tornado.",
+              "Stay informed about tornado watches and warnings in your area.",
+              "Teach your family the difference between tornado watches and warnings.",
+              "Tornadoes can occur anytime; always be prepared.",
+              "After a tornado, watch out for downed power lines and debris."
+            ]
+          },
+          {
+            "category": "general_info",
+            "content": [
+              "A tornado is a rapidly rotating column of air that extends from a thunderstorm to the ground.",
+              "Tornadoes are classified on the Enhanced Fujita scale, ranging from EF0 (weakest) to EF5 (strongest).",
+              "The United States experiences more tornadoes than any other country.",
+              "Tornadoes can form in severe thunderstorms and supercells.",
+              "Meteorologists use Doppler radar to detect rotation in thunderstorms.",
+              "Tornado preparedness includes having a safe place to shelter, like a basement.",
+              "Tornadoes can strike with little warning, so have a plan in place.",
+              "Tornadoes are known for their incredible wind speeds, which can reach up to 300 miles per hour (480 kilometers per hour) or more. These high wind speeds make tornadoes one of the most powerful natural forces on Earth.",
+              "Mobile apps can provide alerts and warnings for tornadoes.",
+              "Climate change may influence tornado frequency and intensity."
+            ]
+          }
+        ]
+      }
+    ],
+    "info_type": {
+      "safety_tips_patterns":["safety", "safe", "precautions", "protection", "emergency", "guidelines", "measures", "tips", "advice", "rules"],
+      "general_info_patterns": ["information", "facts", "details", "knowledge", "overview", "understanding", "about", "learn", "what", "know"]
+    } 
+  }
+  
