@@ -18,7 +18,7 @@ import random
 
 from flask import Flask, request, jsonify
 
-app = Flask(__name)
+app = Flask(__name__)
 
 @app.route('/')
 async def root(userMSG: str = "Hello"):
