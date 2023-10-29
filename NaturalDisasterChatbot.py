@@ -24,7 +24,7 @@ app = Flask(__name__)
 def root():
     userMSG = request.args.get('userMSG', 'Hello')
     response = DisasterChatbot.init(userMSG)
-    return {"response": response}
+    return json.dumps({"response": response})
 
 
 class DisasterChatbot:
