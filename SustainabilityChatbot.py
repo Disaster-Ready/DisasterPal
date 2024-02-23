@@ -186,7 +186,7 @@ class DisasterChatbot:
     #Function: main
     def init(userMSG):
         print("Starting Conversation:")
-        knowledge = DisasterChatbot.getData("SustainabilityChatbotProcessingData.json")
+        knowledge = DisasterChatbot.getData("SustainabilityBotProcessingData.json")
         intents = knowledge["intents"]
         description = knowledge["info_type"]
 
